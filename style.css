@@ -1,0 +1,158 @@
+body{
+    margin: 0px;
+}
+
+html, body {
+    height: 100%;  
+    margin: 0;     
+}
+
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}
+.navbar li{
+    float: left;
+}
+
+main {
+    font-size: 3rem;   
+    text-align: center; 
+    margin-top: 50px;  
+}
+
+main .note {
+    font-size: 1.5rem;   
+    display: block;      
+    margin-top: 15px;    
+    font-style: italic;  
+    color: #070707;      
+}
+
+.footer {
+    clear: both;                
+}
+
+.footer ul {
+    list-style-type: none;
+    background-color: hsl(0, 0%, 25%);
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer li {
+    display: inline-block; 
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+.footer a:hover {
+    background-color: hsl(0, 0%, 10%);
+}
+
+body {
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh;      
+}
+
+main {
+    flex: 1; 
+}
+
+.logo {
+    height: 70px;   
+    width: auto;   
+    border-radius: 50%;     
+    object-fit: cover; 
+}
+
+p {
+    font-family: 'Georgia', serif;  
+    font-size: 1.1rem; 
+    text-align: left;  
+    font-style: italic;           
+}
+
+.header1{
+    font-family: 'Georgia', serif;  
+    font-size: 2rem; 
+    text-align: left;
+    
+}
+
+.logo-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+.header2{
+    font-family: 'Georgia', serif;  
+    font-size: 2rem; 
+    text-align: left;
+    
+}
+
+.hobbies1{
+    list-style-type: none; 
+    padding: 0;            
+    margin: 0;             
+    font-family: 'georgia', serif;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    text-align: center;
+    margin-bottom: 8px; 
+}
+
+.images{
+    display: flex;               
+    justify-content: center;     
+    align-items: center;         
+    gap: 30px;                   
+    margin: 20px 0;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;           
+    border-radius: 10px;         
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+
+.pic:hover {
+    opacity: 0.5; 
+}
+
